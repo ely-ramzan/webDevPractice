@@ -1,0 +1,21 @@
+*{
+    color: #EBF8B8;
+    font-family: monospace;
+    /* background-image:; */
+    background-image: url(bg_portfolio.png);
+}
+.head1{
+    font-size: 50px;
+    color: #FFE787;
+    text-align: center;
+}
+#name {
+    margin-top: 150px;
+    text-align: center;
+    font-size: 100px;
+}
+#details{
+    color: #EAF8B5;
+    padding: 2%;
+    border-radius: 30px;
+}

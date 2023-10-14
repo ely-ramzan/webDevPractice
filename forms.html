@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <!-- <form method="get" action="submit.php"> -->
+    <form>
+        <div>
+            Name:
+            <input type="text">
+            <br>
+        </div>
+        <div>
+            Email:
+            <input type="email">
+            <br>
+        </div>
+        <div>
+            Date:
+            <input type="date">
+            <br>
+        </div>
+        <div>
+            Time
+            <input type="time">
+            <br>
+        </div>
+        <div>
+            Contact number:
+            <input type="number">
+            <br>
+        </div>
+        <div>
+            <input type="reset">
+            <br>
+        </div>
+        <textarea name="hello" placeholder="tell about urself" cols="20" rows="15"></textarea>
+
+        <div>
+            <!-- <input type="submit" value="SUBMIT"> -->
+            <input type="image" src="src/submit.png" alt="submit" width = "50" height="60">
+            <br>
+        </div>
+    </form>
+    <form >
+        <div>
+            <!-- <select name="dropbox" multiple size="2"> -->
+            <select>
+                <optgroup label = "boyzz">
+                    <option value="ali">ali</option>
+                    <option value="tahir" selected>tahir</option>
+                    <option value="zaid">zaid</option>
+                </optgroup>
+                <optgroup label="sports">
+                    <option value="cricket">cricket</option>
+                    <option value="football">football</option>
+                    <option value="baseball">baseball</option>
+                </optgroup>
+            </select>
+        </div>
+    </form>
+    <form>
+        <div>
+            CHOOSE YOUR GENDER: 
+            <input type="radio" name = "GENDER" value="male" checked>Male 
+            <input type="radio" name = "GENDER" value="female">Female
+            <input type="radio" name = "GENDER" value="other">Other
+        </div>
+        <br><br>
+        <div>
+            CHOOSE YOUR RANK: 
+            <input type="radio" name = "rank" value="Manager">Manager
+            <input type="radio" name = "rank" value="Developer" checked>Developer
+        </div>
+        <br><br>
+        <div>
+            CHOOSE YOUR FAV SPORTS: 
+            <input type="checkbox" name = "sports" value="Basketball" checked>Basketball
+            <input type="checkbox" name = "sports" value="Cricket" checked>Cricket
+            <input type="checkbox" name = "sports" value="Hockey">Hockey
+            
+        </div>
+    </form>
+    <form>
+        <div>
+            Search 
+            <input type="text" list="fruits">
+            <datalist id="fruits">
+                <option value="apple"></option>
+                <option value="mango"></option>
+                <option value="banana"></option>
+                <option value="grape"></option>
+                <option value="apricot"></option>
+            </datalist>
+            <input type="submit" value="Search">
+        </div>
+    </form>
+    <form>
+        <fieldset>
+            <legend>BASIC INFORMATION</legend>
+            <label for="fName">First Name</label>
+            <input type="text" name="fName" id="fName">
+            <label for="lName">Last Name</label>
+            <input type="text" name="lName" id="lName">
+        </fieldset>
+        <fieldset>
+            <legend>CONTACT INFORMATION</legend>
+            <label for="emial">Email</label>
+            <input type="email" name="emial" id="emial">
+            <label for="phoneNumber">Phone Number</label>
+            <input type="number" name="phoneNumber" id="phoneNumber">
+        </fieldset>
+        <fieldset>
+            <input type="submit" value="SUBMIT">
+        </fieldset>
+    </form>
+</body>
+</html>

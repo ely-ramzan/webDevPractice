@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.head1{
+    border: dotted red 2px;
+    font-size: 3rem;
+    padding: 0.5em;
+    width: auto;
+    margin-bottom: 0.5em;
+    background-color: lightgray;
+}
+.para{
+    background-color: antiquewhite;
+
+}
