@@ -1,0 +1,17 @@
+.box{
+    background-color:papayawhip;
+    border: 2px solid;
+    border-color: black;
+    /* border-radius: 40%; */
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    justify-items: center;
+}
+.button-group{
+    display: flex;
+    justify-items: center;
+}
+.button{
+    margin: 5px;
+}

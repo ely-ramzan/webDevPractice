@@ -1,0 +1,52 @@
+/* overall border-box reset  */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* these variables will be used to adjust colors and settings which are redunadant */
+
+/* set all these values to your desires and add any more if u want to */
+
+:root{
+    --primary-text-color:#183b56;
+    --secondary-text-color: #577592;
+    --accent-color: #2294ed;
+    --accent-color-dark: #1d69a3;
+    --padding-inline-section: 20px;
+}
+
+/* adjust some styles which are default to of my choice */
+
+body{
+    font-family:'Poppins', sans-serif ;
+    color: var(--primary-text-color);
+}
+
+h1{
+    font-size: 3rem;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+h3{
+    font-size: 1.5rem;
+}
+
+p{
+    font-family: 'Roboto',sans-serif;
+    font-size: 1.25rem;
+    color: var(--secondary-text-color);
+    line-height: 1.8rem;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+/* add your utility classes here so you can use them*/
